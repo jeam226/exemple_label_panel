@@ -19,18 +19,40 @@ namespace prova_label_panel
 
         private void panel_Paint(object sender, PaintEventArgs e)
         {
-            if (radioButton1.Checked)
+            if (radioButton1.Checked == true)
             {
-                label1.Show();
+                label2.Show();
 
-            } if (radioButton2.Checked)
+            } 
+            if (radioButton2.Checked == true)
             {
-                label1.Hide();
+                label2.Hide();
 
-            } if (radioButton3.Checked)
+            } 
+            if (radioButton3.Checked == true)
             {
-                label1.Show();
+                label2.Show();
             }
+        }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void radioButton6_CheckedChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void radioButton5_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton4_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
