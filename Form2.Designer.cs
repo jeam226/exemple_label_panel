@@ -62,6 +62,7 @@
             this.radioButton3.TabIndex = 2;
             this.radioButton3.Text = "radioButton3";
             this.radioButton3.UseVisualStyleBackColor = true;
+            this.radioButton3.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
             // 
             // radioButton2
             // 
@@ -72,6 +73,7 @@
             this.radioButton2.TabIndex = 1;
             this.radioButton2.Text = "radioButton2";
             this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
             // radioButton1
             // 
@@ -139,6 +141,7 @@
             this.label2.Size = new System.Drawing.Size(69, 15);
             this.label2.TabIndex = 6;
             this.label2.Text = "Sense Panel";
+            this.label2.Visible = false;
             // 
             // Form2
             // 
